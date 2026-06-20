@@ -8,9 +8,9 @@ int main()
     printf("Insert Number: ");
     scanf("%f", &num);
 
-    float result = num / num;
+    float result = num / 10;
 
-    printf("The square root is: %f", result);
+    printf("Divided by 10 is: %f", result);
 
     return 0;
 }
